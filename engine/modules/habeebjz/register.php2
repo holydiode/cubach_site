@@ -1,0 +1,62 @@
+<?php
+	if(!defined('DATALIFEENGINE')) die("Hacking attempt!");
+	if(!$member_id['name'] || $member_id['name'] == 'habeebjz') {
+		$header = "Регистрация";
+		$td = "padding: 7px 12px;";
+		$content .= "
+			<table id='registerTable' class='uk-table uk-width-1-1 uk-table-striped uk-form'>
+				<tr>
+					<td style='$td'>
+						Придумайте себе игровой ник
+						<div class='uk-text-small' style='margin-top: -2px;font-size: 11px;opacity: 0.6;'>Минимум 4 символа, максимум 16</div>
+					</td>
+					<td style='$td' width='304px'><input type='text' class='super-form' id='nickname' placeholder='Например: Example' autocomplete='off'></td>
+				</tr>
+				<tr>
+					<td style='$td'>
+						Email адрес
+						<div class='uk-text-small' style='margin-top: -2px;font-size: 11px;opacity: 0.6;'>Не будет возможности сменить, нужен для восстановления пароля</div>
+					</td>
+					<td style='$td'><input type='text' class='super-form' id='email' placeholder='Например: mynick@mail.ru' autocomplete='off'></td>
+				</tr>
+				<tr>
+					<td style='$td'>
+						Пароль
+						<div class='uk-text-small' style='margin-top: -2px;font-size: 11px;opacity: 0.6;'>Максимально сложный, например: ".generate_password(12)."</div>
+					</td>
+					<td style='$td'><input type='password' class='super-form' id='pass' placeholder='Например: ".generate_password(12)."' autocomplete='off'></td>
+				</tr>
+				<tr>
+					<td style='$td'>
+						Повторите пароль
+						<div class='uk-text-small' style='margin-top: -2px;font-size: 11px;opacity: 0.6;'>Убедиться, что не допущено ошибки</div>
+					</td>
+					<td style='$td'><input type='password' class='super-form' id='pass2' placeholder='Пароль указанный выше' autocomplete='off'></td>
+				</tr>
+				<tr>
+					<td style='$td'>
+						Подтвердите, что вы не робот
+						<div class='k-text-small' style='margin-top: -2px;font-size: 11px;opacity: 0.6;'>Один клик, если все в порядке</div>
+					</td>
+					<td><div class='g-recaptcha' data-sitekey='6LfaUnAUAAAAAPucbFiGH7gWoegEzUyxrCYa2CVt'></div></td>
+				</tr>
+				<tr>
+					<td style='$td'>
+						Завершите регистрацию
+						<div class='uk-text-small' style='margin-top: -2px;font-size: 11px;opacity: 0.6;'>Заканчивайте и бегом в игру!</div>
+					</td>
+					<td style='$td'><button type='button' class='uk-width-1-1 uk-button hab-blue-btn' id='registerStart'>Завершить регистрацию!</button></td>
+				</tr>
+			</table>
+			<div id='regoutput'></div>
+			
+			<script src='$DURL/loadscript/register'></script>
+		";
+		
+		$tpl->load_template('modules.tpl');
+		$tpl->set('{header}', $header);
+		$tpl->set('{content}', $content);
+		$tpl->set( 'Array', "" );
+		$tpl->compile('content');
+		$tpl->clear();
+	}

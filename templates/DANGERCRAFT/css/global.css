@@ -1,0 +1,498 @@
+a#logotype {
+	font-size: 30px;
+	font-weight: bold;
+	color: #2e3338;
+	margin-top: 3px;
+	text-decoration: none;
+}
+
+a#logotype img {
+    width: 340px;
+    height: 47px;
+    margin-top: -5px;
+    margin-right: -60px;
+    transition: .5s;
+}
+a#logotype img:hover {
+    width: 345px;
+    height: 47px;
+    margin-top: -5px;
+    /* padding-right: 0px; */
+    margin-right: -60px;
+}
+
+a.logotype-footer {
+	display: block;
+	color: #fff !important;
+	margin-left: 0 !important;
+	margin-top: 17px !important;
+	font-size: 25px !important;
+	border-bottom: none !important;
+}
+
+div.monitoring {
+	margin: 10px 0;
+	font-size: 14px;
+}
+
+div.monitoring span {
+	float: right;
+	font-weight: bold;
+}
+
+div.monitoring-polosa {
+	width: 241px;
+	height: 18px;
+	border-radius: 2px;
+	background: rgb(229, 234, 242);
+	margin-top: 4px;
+}
+
+div.monitoring-width {
+	height: 18px;
+	border-radius: 2px;
+	background: linear-gradient(to right, #5167d9 , #459df0);
+}
+
+div.monitoring-width-off {
+	height: 18px;
+	border-radius: 2px;
+	background: linear-gradient(to right, #fe5a73 , #fe7669);
+}
+
+.hab-blue-btn {
+	height: 33px;
+	line-height: 25px !important;
+	background: linear-gradient(to right, #42a4f3, #5260d5);
+	border-radius: 3px !important;
+	color: #fff !important;
+	border-bottom: 5px solid rgba(255, 255, 255, 0.25) !important;
+}
+
+.hab-blue-btn:hover {
+	background: linear-gradient(to right, #55b2fd, #6573ea);
+}
+
+.super-form {
+	height: 33px;
+	margin-top: 3px;
+	width: 100%;
+	max-width: 100%;
+	padding: 4px 6px;
+	border: 1px solid #E5E5E5;
+	background: #fff;
+	color: #666;
+	-webkit-transition: all .2s linear;
+	-webkit-transition-property: border,background,color,box-shadow,padding;
+	transition: all .2s linear;
+	transition-property: border,background,color,box-shadow,padding;
+	border-radius: 4px;
+}
+
+.super-form:focus {
+	border-color: #99baca;
+	outline: 0;
+	background: #f5fbfe;
+	color: #666;
+}
+
+div.rules_header {
+	font-weight: bold;
+	margin: 10px 0;
+}
+
+div.rules_header a {
+    /* color: #000; */
+}
+
+div.cabinet_section {
+	margin-top: 25px;
+}
+
+a.btn-cabinet {
+    padding: 10px;
+    width: 158px;
+    height: 35px;
+    margin-left: 10px;
+    line-height: 14px;
+    /* box-shadow: 0px 4px 19px 0px #ccd4e0; */
+}
+
+a.btn-cabinet:hover {
+    /* box-shadow: 0px 4px 19px 0px #ccd4e0; */
+}
+
+a.btn-cabinet-active {
+    background: linear-gradient(to right, #884101, #f29038);
+    /* border: 2px solid #ff7f01; */
+    /* background-color: beige; */
+    box-shadow: 5px 5px #ff7f0170;
+}
+
+a.btn-cabinet-active:hover {
+    background: linear-gradient(to right, #ad4f30, #e48936);
+}
+
+.btn-cabinet-green {
+    margin-top: 15px !important;
+    height: 33px;
+    line-height: 24px !important;
+    background: linear-gradient(to right, #f15f28, #f29038);
+    padding: 0px 10px !important;
+    color: #fff !important;
+    border-radius: 3px !important;
+    border-bottom: 5px solid rgba(255, 255, 255, 0.25) !important;
+    /* box-shadow: 0px 10px 65px 0px #ccd4e0 !important; */
+    text-decoration: none !important;
+    font-size: 13px !important;
+    font-weight: 600 !important;
+    display: inline-block !important;
+    transition: .5s !important;
+    line-height: 31px !important;
+    text-align: -webkit-center !important;
+}
+
+.btn-cabinet-green:hover {
+	-moz-transform: scale(1.05);
+	-ms-transform: scale(1.05);
+	-webkit-transform: scale(1.05);
+	transform: scale(1.05);
+	opacity: 0.8;
+}
+
+.load-btn {
+	background: linear-gradient(to right, #ffa857, #fe5a73);
+	padding: 0px 10px;
+	color: #fff;
+	border-radius: 3px;
+	border-bottom: 5px solid rgba(255, 255, 255, 0.25);
+	text-decoration: none;
+	font-size: 13px;
+	font-weight: 600;
+	line-height: 39px;
+}
+
+.load-btn:hover {
+	color: #fff;
+	cursor: pointer;
+	opacity: .8;
+}
+
+table.team_b b {
+	font-weight: bold;
+}
+
+div.donate_box {
+	display: inline-block;
+	position: relative;
+	width: 258px;
+	padding: 10px;
+	margin-top: 15px;
+	margin-left: 18px;
+	text-align: center;
+	background: #fff;
+	border-bottom: 7px solid #eee;
+	border-radius: 3px;
+	box-shadow: 0px 0px 12px 0px #bbbbbb;
+}
+
+div.donate_box_title {
+	font-size: 23px;
+	text-align: center;
+	font-weight: bold;
+}
+
+div.donate_box_text {
+    font-size: 11px;
+    margin-top: -5px;
+}
+
+div.donate_box_img {
+    width: 120px;
+    display: block;
+    margin: 0 auto;
+}
+
+div.donate_box_days {
+    margin-top: -5px;
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+
+div.donate-vip {
+	border-bottom: 7px solid #ff929194;
+	box-shadow: 0px 0px 12px 0px #ff9291c7;
+}
+
+div.donate-premium {
+	border-bottom: 7px solid #79a7ed8c;
+	box-shadow: 0px 0px 12px 0px #5164d799;
+}
+
+div.donate-deluxe {
+	border-bottom: 7px solid #98ce4c91;
+	box-shadow: 0px 0px 12px 0px #6db615;
+}
+
+.donate_box.donate-deluxe {}
+
+.discount_show {
+	position: absolute;
+	font-size: 10pt;
+	margin: 0;
+	margin-left: 764px;
+	margin-top: -46px;
+	height: 31px;
+	width: 48px;
+	line-height: 1rem;
+	font-weight: bold;
+	padding: 8px;
+	color: #fff;
+	background: #a20d0d;
+	box-shadow: 0px 2px #ffffff;
+	/* border-radius: 5px; */
+}
+
+table.donate-table td {
+	padding: 6px 12px;
+}
+
+table.donate-table th {
+	padding: 6px 12px;
+	font-size: 16px;
+}
+
+div#profile-links a {
+    /* background: rgb(243, 111, 42); */
+    display: block;
+    margin-bottom: 3px;
+    border-radius: 4px;
+    font-size: 13px;
+    padding: 5px;
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    border: 2px solid #ff7f01;
+    padding: 8px;
+    margin-top: inherit;
+    transition: all 0.3s;
+}
+
+div#profile-links { margin-top: 10px; }
+
+div#profile-links a:hover {
+    background: #ff7f0136;
+    color: white;
+}
+
+a#logout-link {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    /* color: #086388; */
+    /* background-color: darkred; */
+    padding: 3px 3px 3px;
+    border-radius: 15px;
+    max-width: 140px;
+    font-weight: bold;
+    border-bottom: 2px solid red;
+    margin-left: 100px;
+    transition: all 0.3s;
+}
+
+.uk-button-green {
+    background-color: #70b560;
+    color: #fff !important;
+    border: 1px solid transparent;
+}
+
+.uk-button-green:hover {
+    background-color: #83c773;
+    color: #fff;
+}
+
+input.uk-form.donatevalue {
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    font-size: 23px;
+    border: none;
+    box-shadow: none;
+    border-bottom: 1px solid #ff7f00;
+    color: #ff7f00;
+    font-weight: 600;
+}
+
+input.uk-form.donatevalue:focus {
+	border-color: none;
+	outline: 0;
+}
+
+.beautybutton {
+    display: block !important;
+    height: 47px !important;
+    line-height: 45px !important;
+    width: 81% !important;
+    font-size: 20px !important;
+    margin-top: 10px;
+    margin-left: 35px;
+}
+
+.beautybutton:hover {
+    -moz-transform: none !important;
+    -ms-transform: none !important;
+    -webkit-transform: none !important;
+    transform: none !important;
+}
+
+
+.shop-list-name {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: black;
+    /* text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.58); */
+    text-transform: uppercase;
+}
+
+.shop_itemsinside {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #7D9473;
+}
+
+.shop-list-shop {
+	cursor: pointer;
+	transition: all 0.5s;
+	padding: 20px !important;
+	margin-bottom: 20px;
+}
+
+.shop-list-shop:hover {
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
+.shop-list-shop:hover .shop_itemsinside { color: #000; }
+
+div#showSettings:hover {
+    cursor: pointer;
+    color: black;
+}
+
+a.backtolist {
+    background: #0000000d;
+    color: #403f3f;
+    border-radius: 3px;
+    padding: 3px 13px;
+    font-size: 14px;
+    float: left;
+}
+div#showSettings {
+    background: #0000000d;
+    color: #403f3f;
+    border-radius: 3px;
+    padding: 3px 13px;
+    font-size: 14px;
+    width: 165px;
+    float: right;
+}
+
+.enchant_style {
+	float: right;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.enchant_style:hover {
+	opacity: 0.6;
+}
+
+@font-face {
+    font-family: Minecraft;
+    src: url(Minecraft.ttf);
+}
+
+#cabinet_overview {
+    font-family: Minecraft;
+    font-size: 13px;
+    background: #2E2F2D;
+    color: #FFF;
+    padding: 5px;
+}
+
+
+.wasPrice {
+	opacity: 0.8;
+	font-size: 9pt;
+	margin-top: 1px;
+	position: absolute;
+	margin-left: -28px;
+}
+
+.shop-item:nth-child(even) { background: rgb(233, 237, 245); }
+
+.shop-item { padding: 5px; }
+
+.ellipse-left {
+  width: 71px;
+  height: 72px;
+  border-radius: 50%;
+  background: linear-gradient(to right, #fe6171, #ffa15a);
+  position: absolute;
+  top: -6%;
+  left: -35px;
+  z-index: -1;
+}
+
+.ellipse-right {
+  width: 114px;
+  height: 114px;
+  border-radius: 50%;
+  background: linear-gradient(to right, #fe6171, #ffa15a);
+  position: absolute;
+  top: 88%;
+  left: 93%;
+  z-index: -999999;
+}
+
+div.team_box {
+	padding: 10px;
+	text-align: center;
+	background: #fff;
+	border-bottom: 7px solid #eee;
+	border-radius: 3px;
+	box-shadow: 0px 0px 12px 0px #bbbbbb;
+}
+
+div.team_box b {
+    display: block;
+    font-weight: bold;
+    color: #000;
+}
+
+div.team_box p {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	position: absolute;
+	margin-top: -24px;
+}
+
+div.team_box span {
+	display: block;
+	font-size: 13px;
+}
+
+.team_p1 {
+	background: linear-gradient(to right, #fe6171, #ffa15a);
+}
+
+.team_p2 {
+	background: linear-gradient(to right, #5167d9 , #459df0);
+}
+
+.team_p3 {
+	background: linear-gradient(to right, #6cb615, #9adb01);
+}

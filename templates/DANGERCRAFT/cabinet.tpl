@@ -1,0 +1,1 @@
+<iframe src="/cabinet/index.php" width=700 height=1300 frameborder scrolling="no"></iframe>
