@@ -22,7 +22,7 @@
 					</tbody>
 				</table>
 				<div id='profile-links'>
-					<a href='/cabinet'>Личный кабинет</a>
+					<a href='/lcabinet'>Личный кабинет</a>
 				</div>
 				<a href='/?action=logout' id='logout-link'>Выйти из аккаунта</a>
 			</div>

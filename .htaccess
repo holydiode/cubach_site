@@ -2,9 +2,17 @@ DirectoryIndex index.php
 
 RewriteEngine On
 
+RewriteRule ^loadscript/([^/]*)-([^/]*)(/?)$ templates/FiresCraft/js/minecraft/$1.js?load=$2
+RewriteRule ^ajax/([^/]*)(/?)$ engine/modules/habeebjz/ajax/$1.php
+
+RewriteRule ^lcabinet(/?)$ index.php?do=static&page=lc [L,QSA]
+RewriteRule ^store(/?)$ index.php?do=store [L,QSA]
 RewriteRule ^register(/?)$ index.php?do=register [L,QSA]
 RewriteRule ^banlist(/?)$ index.php?do=banlist [L,QSA]
+RewriteRule ^donate(/?)$ index.php?do=donate [L,QSA]
+RewriteRule ^skin-([0-9]+)-([^/]*)(/?)$ engine/modules/habeebjz/cabinet/showskin.php?user_name=$2&mode=$1 [L,QSA]
 
+RewriteRule ^team(/?)$ index.php?do=team [L,QSA]
 RewriteRule ^start$ start.html [L]
 
 # Редиректы

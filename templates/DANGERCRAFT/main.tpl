@@ -59,7 +59,7 @@
 							[/group]
 							[not-group=5]
                            <!-- <a uk-toggle='target: #launcher' class="btn-login"><span class="ic-sx21"></span> Скачать лаунчер</a> -->
-                           <a href="/cabinet" class="btn-startgames"><span class="ic-sx22"></span> Личный кабинет</a>
+                           <a href="/lcabinet" class="btn-startgames"><span class="ic-sx22"></span> Личный кабинет</a>
 							[/not-group]
                         </div>
                      </div>
